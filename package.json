@@ -1,0 +1,19 @@
+{
+  "name": "quick-busters",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://git.heroku.com/quick-busters.git",
+  "author": "Tatsuya Teshima <terima666tatsuya@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "postinstall": "cd frontend && yarn install"
+  },
+  "cacheDirectories": [
+    "node_modules",
+    "frontend/node_modules"
+  ],
+  "engines": {
+    "node": "9.9.0",
+    "yarn": "1.5.1"
+  }
+}
